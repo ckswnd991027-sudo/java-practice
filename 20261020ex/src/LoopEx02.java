@@ -13,6 +13,7 @@ public class LoopEx02 {
 		 */
 		
 		//1~10까지 정수의 합을 구하되 합이 30을넘으면 중단
+		/*
 		int sum = 0;
 		for(int i =1; i<= 10; i++) {
 			sum+=i;
@@ -29,7 +30,7 @@ public class LoopEx02 {
 			
 			System.out.println(" i :" + i);
 		}
-		
+		*/
 		/*
 		 * 반복문 이름 부여하기
 		 * 지금까지 반복문의 다양한 기능에 대해서 살펴봤는데요, 
