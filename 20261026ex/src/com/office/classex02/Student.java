@@ -10,7 +10,10 @@ public class Student {
 		String major;
 		
 		//생성자
-		 public Student(String name, int grade, int age, String major) {
+		 public Student(String name,
+				 int grade,
+				 int age,
+				 String major) {
 		        System.out.println("--- Constructor ---");
 		    
 		 

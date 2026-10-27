@@ -1,0 +1,40 @@
+package com.office.classex04;
+
+public class Car {
+	
+	//멤버필드
+	String color;
+	int length;
+	int price;
+	int displacement;
+	
+	//생성자
+	public Car() {
+		System.out.println("---CONSTRUCTOR---");
+	}
+
+	public Car(String color, int length, int price, int displacement) {
+		super();
+		this.color = color;
+		this.length = length;
+		this.price = price;
+		this.displacement = displacement;
+	}
+	
+	
+	//메서드
+
+	//int speed : parameter, 매개 변수
+	public void goForward(int speed, double hour) {
+		System.out.println(" ---goForward() method---");
+		System.out.println(speed + "km/h");
+	}
+	public void goBack() {
+		System.out.println(" ---goBack() method---");
+	}
+	
+	public void doTest() {
+		goForward(100, 2.0);
+		goBack();
+	}
+}
